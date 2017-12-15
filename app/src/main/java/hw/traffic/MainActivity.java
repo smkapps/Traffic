@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                 message.what = durationGreen / 1000 +durationYellow/1000 - counter+1;
             }
 
-            if (counter > durationGreen/1000+durationYellow/1000+1 && counter <= durationGreen/1000+durationYellow/1000+durationRed/1000+2) {
+            if (counter > durationGreen/1000+durationYellow/1000+1 && counter <= durationGreen/1000+durationYellow/1000+durationRed/1000+2 ) {
                 bundle.putInt("light", 2);
                 message.what = durationGreen / 1000 +durationYellow/1000 + durationRed/1000- counter+2;
             }
